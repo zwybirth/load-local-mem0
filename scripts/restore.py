@@ -1,7 +1,12 @@
 #!/usr/bin/env python3
 """
-LOCAL-MEM0 快速恢复脚本
+LOCAL-MEM0 快速恢复脚本 v2.0
 用于 OpenClaw 版本升级、重启或安装后重新接入 LOCAL-MEM0
+
+每次会话启动时运行此脚本以确保 LOCAL-MEM0 正确加载：
+    python3 ~/.openclaw/workspace/skills/load-local-mem0/scripts/restore.py
+
+GitHub: https://github.com/zwybirth/load-local-mem0
 """
 
 import os
